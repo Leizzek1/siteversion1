@@ -4,51 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WebStudio</title>
     <link rel="stylesheet" href="./css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;900&display=swap');
+    </style>
 </head>
 <body>
-    <header>
-        <a href="./index.html">WebStudio</a>
-      <ul>
-        <li><a href="">Студио</a></li>
-        <li><a href="">Портфолио</a></li>
-        <li><a href="">Контакты</a></li>
+    <header class="header">
+        <a href="./index.html" class="header-logo"><span class="span-logo">Web</span>Studio</a>
+        <nav class="header-nav">
+      <ul class="header-list">
+        <li class="header-item"><a href="./index.html" class="text1">Студио</a></li>
+        <li class="header-item"><a href="./index2.html">Портфолио</a></li>
+        <li class="header-item"><a href="">Контакты</a></li>
       </ul>
-     <ul>
-        <li><a href="mailto:info@example.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380991111111">+38 096 111 11 11</a></li>
+      </nav>
+     <ul class="contact-list">
+        <li class="contact-item"><a href="mailto:info@example.com" class="contact-link">info@devstudio.com</a></li>
+        <li class="contact-item"><a href="tel:+380991111111" class="contact-link">+38 096 111 11 11</a></li>
      </ul>
     </header>
     <main>
-        <section>
-            <h1>Эффективное решение вашего бизнеса</h1>
+        <section class="table">
+            <h1 class="text">Эффективное решение вашего бизнеса</h1>
             <button type="button" class="button">Заказать услугу</button>
         </section>
-        <section>
+        <section class="features">
             <ul>
-                <li>
+                <li class="features-item">
                     <h3>Внимание к деталям</h3>
-                    <p class="p2">Идейные соображения, а также<br> 
+                    <p class="features-paragraph">Идейные соображения, а также<br> 
                        начало повседневной работы по<br> 
                        формированию позиции.
                     </p>
                 </li>
-                <li>
-                    <h3>Пунктуальность</h3>
-                    <p>Задача организации, в особенности<br>
+                <li class="features-item">
+                    <h3 class="features-title">Пунктуальность</h3>
+                    <p class="features-paragraph">Задача организации, в особенности<br>
                        же рамки и место обучения кадров <br>
                        влечет за собой.</p>
                 </li>
-                <li>
-                    <h3>Планирование</h3>
-                    <p>Равным образом консультация с<br> 
+                <li class="features-item">
+                    <h3 class="features-title">Планирование</h3>
+                    <p class="features-paragraph">Равным образом консультация с<br> 
                        широким активом в значительной<br> 
                        степени обуславливает.</p>
                 </li>
-                <li>
-                    <h3>Современные технологии</h3>
-                    <p>Значимость этих проблем настолько<br> 
+                <li class="features-item">
+                    <h3 class="features-title">Современные технологии</h3>
+                    <p class="features-paragraph">Значимость этих проблем настолько<br> 
                        очевидна, что реализация плановых<br> 
                        заданий<p>
                 </li>
@@ -66,22 +71,22 @@
             <h2>Наша команда</h2>
             <ul>
                 <li>
-                    <img src="./img/img4.jpg" alt="тут фотография дизайнера продукта ">
+                    <img class="img" src="./img/img4.jpg" alt="тут фотография дизайнера продукта ">
                     <h3>Игорь Демьяненко</h3>
                     <p>Product Designer</p>
                 </li>
                 <li>
-                    <img src="./img/img5.png" alt="Фотография нашего фронтального разроботчика">
+                    <img class="img" src="./img/img5.png" alt="Фотография нашего фронтального разроботчика">
                     <h3>Ольга Репина</h3>
                     <p>Fronted Developer</p>
                 </li>
                 <li>
-                    <img src="./img/img6.png" alt="фотография нашего маркетолога">
+                    <img class="img" src="./img/img6.png" alt="фотография нашего маркетолога">
                     <h3>Николай Тарасов</h3>
                     <p>Marketing</p>
                 </li>
                 <li>
-                    <img src="./img/img7.png" alt="Фотография нашего дизайнера пользовательского интерфейса">
+                    <img class="img" src="./img/img7.png" alt="Фотография нашего дизайнера пользовательского интерфейса">
                     <h3>Михаил Ермаков</h3>
                     <p>UI Designer <p>
                 </li>
@@ -89,11 +94,11 @@
         </section>
     </main>
     <footer>
-        <a href="">WebStudio</a>
-        <address>г. Киев пр-т Леси Украинки,26</address>
+        <a href="./index.html" class="header-logo"><span class="span-logo">Web</span>Studio</a>
+        <address class="address">г. Киев пр-т Леси Украинки,26</address>
         <ul>
-            <li><a href="mailto:info@example.com">info@example.com</a></li>
-            <li><a href="tel:+380991111111"></a>+38 099 111 11 11</li>
+            <li class="contact-link"><a href="mailto:info@example.com">info@example.com</a></li>
+            <li class="contact-link"><a href="tel:+380991111111"></a>+38 099 111 11 11</li>
         </ul>
     </footer>
 </body>
