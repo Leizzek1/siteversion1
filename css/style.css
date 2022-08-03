@@ -130,11 +130,11 @@ margin-left: 93px;
 
 
 .img {
-    
-    width: 270px;
-    left: 215px;
-    top: 1635px;
+
 }
+
+
+
 .inforamtion{
      
     width: 251px;
@@ -457,6 +457,10 @@ color:var(--footer-contact-link-color);
 /*img*/
 .img {
 
+}
+.things{
+    display:block;
+    
 }
 .img-list {
     display: flex;
