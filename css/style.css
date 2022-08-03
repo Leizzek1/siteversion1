@@ -6,6 +6,7 @@
     background-color: #2196F3;
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: 0px;
     
     font-family:'Roboto';
     font-style: normal;
@@ -15,6 +16,7 @@
     color:white;
     padding: 10px 32px;
     align-self: center;
+
 
 
 }
@@ -62,11 +64,23 @@ body{
     color: var(--main-text-color);
     background-color:var(--main-bg-color);
 }
+ul,ol{
+    margin: 0px;
+    padding-left: 0px;
+    list-style: none;
+}
+
+/*header*/
 
 .header {
     border-bottom: 1px solid  #ececec;
     
 
+}
+.header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .header-logo {
@@ -88,6 +102,7 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 margin-right: 331px;
+margin-left: 93px; 
 }
 .header-list{
     display: flex;
@@ -321,6 +336,7 @@ color:var(--what-we-do-title-color);
 /*our-team*/
 .our-team{
     background-color:#F5F4FA;
+    padding: 94px 0px;
     
 
 }
@@ -335,7 +351,8 @@ margin-bottom: 50px;
 
 }
 .our-team-list {
-    margin-bottom: 30px;
+    
+    display: flex;
 
 }
 .our-team-item {
@@ -387,6 +404,10 @@ color: var(--our-team-profesion);
     padding: 60px 0px;
     width: 100%;
 background: #2F303A;
+}
+.footer .container{
+    display: flex;
+    flex-direction: column;
 }
 .footer-logo{
     font-family: 'Raleway';
