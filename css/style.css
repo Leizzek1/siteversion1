@@ -132,6 +132,11 @@ margin-left: 93px;
     margin-right: 10px;
 
 }
+.contact-item:hover >a{
+    fill:#2196F3;
+    color: #2196F3;
+
+}
 
 
 .img {
@@ -434,6 +439,20 @@ line-height: 19px;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--our-team-profesion);
+}
+
+/*clients*/
+
+.clients {
+
+}
+.clients-list {
+}
+.cliens-item {
+}
+.cliens-icon {
+    fill: #AFB1B8;
+    
 }
 
 /*footer*/
