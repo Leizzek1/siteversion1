@@ -55,6 +55,7 @@ text-decoration: none;
     --button-hover-color:#2196F3;
     --button-color:#188CE8;
     --header-text-color:#2196F3;
+    --our-team-icon-hover-color:#2196F3;
     
     
 
@@ -126,6 +127,10 @@ margin-left: 93px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+}
+.header-icon{
+    margin-right: 10px;
+
 }
 
 
@@ -219,6 +224,17 @@ max-width: 716px;
 }
 .contact-link{
     color: #2F303A;
+    display:flex;
+
+
+
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
 
 }
 
@@ -304,6 +320,7 @@ line-height: 24px;
 letter-spacing: 0.03em;
 color: var(--features-paragraph-color);
 }
+
 /* what-we-do*/
 .what-we-do{
     padding-top:94px;
@@ -373,6 +390,26 @@ border-radius: 0px 0px 4px 4px;
 .our-team-img {
  
 }
+.our-team-icon{
+    fill: #AFB1B8;
+    
+
+}
+.our-team-icon:hover{
+    fill:white;
+    
+    
+
+}
+.icon-item{
+    max-width: fit-content;
+}
+.icon-item:hover{
+    background-color:var(--hover-focus-color);
+    border-radius: 50%;
+}
+
+
 .description{
     padding: 30px 0;
     
@@ -471,7 +508,7 @@ color:var(--footer-contact-link-color);
 .img-item {
     border: 1px solid #EEEEEE;
 }
-.img-item:nth-child(2n+1){
+.img-item:nth-child(3n-1){
     margin-right:30px ;
     margin-left:30px; 
 }
