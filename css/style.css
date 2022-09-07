@@ -22,6 +22,10 @@
 }
 .main-button:hover{
     background-color:var(--button-hover-color) ;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
 }
 
 a{
@@ -95,7 +99,6 @@ ul,ol{
 }
 .span-logo {
     color:var(--hover-focus-color);
-    
 }
 .header-nav {
     font-weight: 500;
@@ -114,7 +117,11 @@ margin-left: 93px;
 
 }
 .header-item:hover, .header-item:focus {
-    color:var(--btn-hover-focus-color)
+    color:var(--btn-hover-focus-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
 }
 .header-item{
     padding: 32px 0;
@@ -135,6 +142,11 @@ margin-left: 93px;
 .contact-item:hover >a{
     fill:#2196F3;
     color: #2196F3;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
+
 
 }
 
@@ -202,6 +214,10 @@ max-width: 716px;
 }
 .studio-text:hover{
     color:var(--header-text-color) ;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
 }
 
 
@@ -210,6 +226,10 @@ max-width: 716px;
 }
 .portfolio-text:hover{
     color: var(--header-text-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
 }
 
 
@@ -218,6 +238,10 @@ max-width: 716px;
 }
 .contacts-text:hover{
     color: var(--header-text-color);
+    transition-property: color;
+    transition-duration: 1200ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
 }
 .contact-list{  
     display: flex;
@@ -279,6 +303,10 @@ border: 0px;
 .button:hover,.button:focus{
     background-color: var(--hover-focus-color);
     color: white;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
 }
 .button-list {
     display: flex;
@@ -407,6 +435,10 @@ border-radius: 0px 0px 4px 4px;
 }
 .our-team-icon:hover{
     fill:white;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
 
     
     
@@ -429,6 +461,10 @@ border-radius: 0px 0px 4px 4px;
 }
 .our-team-link:hover{
     background-color: #2196F3;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
 }
 .icon-item{
     max-width: fit-content;
@@ -445,6 +481,10 @@ border-radius: 0px 0px 4px 4px;
 }
 .icon-item:hover{
     background-color:var(--hover-focus-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
     
 }
 
@@ -528,6 +568,10 @@ margin-bottom: 50px;
 .clients-link:hover,.clients-link:focus{
     fill:#2196F3 ;
     border-color: #2196F3;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
 }
 
 /*footer*/
@@ -552,6 +596,7 @@ background: #2F303A;
 }
 .footer-span-logo{
     color:var(--hover-focus-color);
+    
 }
 .footer-address{
     font-family: 'Roboto';
@@ -631,6 +676,10 @@ color:var(--footer-text-color);
 }
 .join-link:hover{
     background-color: #2196F3;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
 }
 
 /*img*/
@@ -742,9 +791,17 @@ color:var(--footer-text-color);
 }
 .modal-close-button:hover>.modal-close-icon{
     fill: var(--hover-focus-color);
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
 }
 .modal-close-button:focus>.modal-close-icon{
     fill: var(--hover-focus-color);
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
 }
 
 .wrap{
