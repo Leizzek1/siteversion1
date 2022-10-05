@@ -1,0 +1,24 @@
+:root {
+  --main-text-color: #212121;
+  --main-bg-color:#ffffff;
+  --hover-focus-color:#2196F3;
+  --header-logo-color:#000000;
+  --contact-color:#757575;
+  --section-hero-color:#2F303A;
+  --btn-hover-focus-color:#188CE8;
+  --section-team-color:#F5F4FA;
+  --features-title-color:#212121;
+  --features-paragraph-color:#757575;
+  --what-we-do-title-color:#212121;
+  --our-team-title-color:#212121;
+  --our-team-name-color:#212121;
+  --our-team-profesion:#757575;
+  --footer-address-color:#ffffff;
+  --footer-contact-link-color:rgba(255, 255, 255, 0.6);
+  --footer-logo-color:#ffffff;
+  --button-hover-color:#2196F3;
+  --button-color:#188CE8;
+  --header-text-color:#2196F3;
+  --our-team-icon-hover-color:#2196F3;
+  --footer-text-color:#ffffff;
+}/*# sourceMappingURL=variable.css.map */
