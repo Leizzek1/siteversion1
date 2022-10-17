@@ -1,0 +1,65 @@
+#buttons{
+    padding: 94px 0;
+    
+ }
+#button{
+    width: 73px;
+    height: 38px;
+    left: 495px;
+    top: 174px;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 6px 22px;
+
+    
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+width: fit-content;
+border: 0px;
+}
+#button-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+#button-item:not(:last-child){
+    margin-right: 8px;
+}
+#modal-button {
+    width: 200px;
+    height: 50px;
+    font-weight: 700px;
+    font-size: 16px;
+    line-height: 1.88px;
+    margin-left: 124px;
+    margin-right:124px;
+    margin-top:30px;
+    align-self: center;
+    text-align: center;
+    letter-spacing:0.06em;
+    cursor: pointer;
+    color: white;
+    background-color: #2196F3;
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
+}
+#button-distrib-icon {
+    fill: white;
+    margin-left: 10px;
+
+}

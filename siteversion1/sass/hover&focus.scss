@@ -1,0 +1,147 @@
+#main-button &:hover{
+    background-color:var($button-hover-color) ;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
+}
+#header-item &:hover,&:focus {
+    color:var($btn-hover-focus-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
+}
+#contact-item &:hover >a{
+    fill:#2196F3;
+    color: #2196F3;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
+}
+#studio-text &:hover{
+    color:var($header-text-color) ;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
+}
+#contacts-text &:hover{
+    color: var($header-text-color);
+    transition-property: color;
+    transition-duration: 1200ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
+}
+#button &:hover,&:focus{
+    background-color: var($hover-focus-color);
+    color: white;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
+}
+#our-team-icon &:hover{
+    fill:white;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
+}
+#our-team-link &:hover{
+    background-color: #2196F3;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
+}
+#icon-item &:hover{
+    background-color:var($hover-focus-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
+}
+#clients-link &:hover,&:focus{
+    fill:#2196F3 ;
+    border-color: #2196F3;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
+}
+#header-item &:hover,&:focus {
+    color:var($btn-hover-focus-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
+}
+#join-link &:hover{
+    background-color: #2196F3;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
+}
+#img-item &:hover{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+    transition-property:box-shadow;
+    transition-duration:250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
+}
+#modal-close-button &:hover>.modal-close-icon{
+    fill: var($hover-focus-color);
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
+}
+#modal-close-button &:focus>.modal-close-icon{
+    fill: var($hover-focus-color);
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
+}
+#contact-item &:hover >a{
+    fill:#2196F3;
+    color: #2196F3;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
+}
+#img-list &:hover #wrap-text{
+    transform: translatey(0);
+    transition-property:transform;
+transition-duration:250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition-delay: 0; 
+}
+#img-list &:focus #wrap-text{
+   transform: translatey(0); 
+   transition-property:transform;
+transition-duration:250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition-delay: 0;
+}
+#input-wrap &:hover #modal-input{
+    border: 2px solid var($hover-focus-color);  
+}
+#input-wrap &:hover #input-icon{
+    fill: #2196F3;
+}
+#check:focus+#check-text span{
+    border-color: var($hover-focus-color);
+}
+#modal-button &:hover,#modal-button &:focus{
+    background-color: #188CE8;
+}
+#button-distrib &:hover,#button-distrib &:focus{
+    background-color: var($btn-hover-focus-color);
+}
